@@ -50,21 +50,12 @@ Analyzes staff, salary, menu costs, gross profit, outlet performance, staff dist
 
 ## Key DAX Measures
 
-```DAX
-Total Revenue = SUM(orders[total_amount])
-
-Total Orders = DISTINCTCOUNT(orders[order_id])
-
-Total Quantity = SUM(order_details[quantity])
-
-Gross Profit = [Total Revenue] - [Total Cost]
-
-Average Order Value = DIVIDE([Total Revenue], [Total Orders])
-
-Profit Margin = DIVIDE([Gross Profit], [Total Revenue])
-
-
-# Dashboard Preview
+- Total Revenue = SUM(orders[total_amount])
+- Total Orders = DISTINCTCOUNT(orders[order_id])
+- Total Quantity = SUM(order_details[quantity])
+- Gross Profit = [Total Revenue] - [Total Cost]
+- Average Order Value = DIVIDE([Total Revenue], [Total Orders])
+- Profit Margin = DIVIDE([Gross Profit], [Total Revenue])
 
 ## Skills Demonstrated
 
