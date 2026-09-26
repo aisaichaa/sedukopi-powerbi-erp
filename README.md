@@ -63,6 +63,7 @@ Average Order Value = DIVIDE([Total Revenue], [Total Orders])
 
 Profit Margin = DIVIDE([Gross Profit], [Total Revenue])
 
+
 # Dashboard Preview
 
 ## Skills Demonstrated
